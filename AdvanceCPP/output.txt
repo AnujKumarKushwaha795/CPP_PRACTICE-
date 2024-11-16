@@ -1,0 +1,2 @@
+ofstream is a class in C++ that allows you to write to files.
+ It is an output file stream that provides a way to write data from your program to a file.

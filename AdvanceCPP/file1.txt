@@ -1,0 +1,3 @@
+this is getline input in a file
+this will store in txt file 
+exit from writting in file by pressing -1

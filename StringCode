@@ -1,0 +1,30 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    string s;
+    cin >> s;
+
+    vector<int> p(n);
+    for (int i = 1; i < n; ++i) {
+        int j = p[i - 1];
+        while (j > 0 && s[i] != s[j]) {
+            j = p[j - 1];
+        }
+        if (s[i] == s[j]) {
+            ++j;
+        }
+        p[i] = j;
+    }
+
+    long long ans = 0;
+    for (int i = 0; i < n; ++i) {
+        ans += i + 1 - p[i];
+    }
+    cout << ans << endl;
+    return 0;
+}

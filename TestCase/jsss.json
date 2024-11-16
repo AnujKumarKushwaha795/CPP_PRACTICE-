@@ -1,0 +1,48 @@
+{
+    "queryresult": {
+      "success": false,
+      "error": false,
+      "numpods": 0,
+      "datatypes": "",
+      "timedout": "",
+      "timedoutpods": "",
+      "timing": 0.10300000000000001,
+      "parsetiming": 0.062,
+      "parsetimedout": false,
+      "recalculate": "",
+      "id": "MSP1135620a0f795badhca3c00001i0g7e804agdi049",
+      "host": "https://www6b3.wolframalpha.com",
+      "server": 2,
+      "related": "",
+      "version": "2.6",
+      "inputstring": "mathematics",
+      "assumptions": {
+        "type": "Clash",
+        "word": "mathematics",
+        "template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+        "count": 3,
+        "values": [
+          {
+            "name": "ExamplePage",
+            "desc": "a general topic",
+            "input": "*C.mathematics-_*ExamplePage-"
+          },
+          {
+            "name": "MathWorld",
+            "desc": "referring to a mathematical definition",
+            "input": "*C.mathematics-_*MathWorld-"
+          },
+          {
+            "name": "Word",
+            "desc": "a word",
+            "input": "*C.mathematics-_*Word-"
+          }
+        ]
+      },
+      "examplepage": {
+        "category": "Math",
+        "url": "https://www6b3.wolframalpha.com/examples/Math-content.html"
+      }
+    }
+  }
+  
